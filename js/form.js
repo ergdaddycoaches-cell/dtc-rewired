@@ -27,7 +27,7 @@ const FORM_ENDPOINT = "https://xmr6-ssay-w0v9.n7e.xano.io/api:606h79Zh/copy-requ
     go.disabled=true;go.textContent='Sending…';
     try{const r=await fetch(FORM_ENDPOINT,{method:'POST',headers:{'Content-Type':'application/json','Accept':'application/json'},body:JSON.stringify(data)});
       if(!r.ok)throw new Error();done()}
-    catch(err){formerr.textContent='Your request didn’t go through. Please try again, or email colin@dancecardrx.com.';go.disabled=false;go.textContent='Send me my copy'}
+    catch(err){formerr.textContent='Your request didn’t go through. Please try again, or email colin@dancecardrx.com.';go.disabled=false;go.textContent='Claim your copy'}
   });
   function done(){card.classList.add('done');const t=document.getElementById('thanks');t.focus();card.scrollIntoView({block:'start'})}
 })();
