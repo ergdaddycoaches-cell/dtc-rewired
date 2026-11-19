@@ -85,7 +85,7 @@ h1 em{font-style:normal;color:var(--brite)}
 .pilot{font:700 19px/1.35 var(--label);text-transform:uppercase;letter-spacing:.03em;color:var(--red);margin:0}
 
 /* form */
-.formzone{margin:46px 0 20px;display:grid;grid-template-columns:.8fr 1.2fr;gap:clamp(24px,4vw,52px);align-items:start}
+.formzone{margin:36px 0 20px;display:grid;grid-template-columns:.8fr 1.2fr;gap:clamp(24px,4vw,52px);align-items:start}
 .pitch h2{font:400 clamp(30px,4vw,46px)/1 var(--display);text-transform:uppercase;color:var(--navy);margin:12px 0 14px;text-wrap:balance}
 .pitch p{margin:0 0 14px}
 .pitch .quote{font:400 clamp(22px,2.6vw,28px)/1.1 var(--display);text-transform:uppercase;color:var(--red);transform:rotate(-1.5deg);margin:22px 0}
@@ -117,7 +117,7 @@ input[aria-invalid="true"]{border-color:var(--red);background:#fff1ec}
 .preview{font:400 13px/1.4 var(--type);background:var(--ink);color:var(--brite);padding:8px 10px;display:inline-block}
 
 /* spreads */
-.inside{margin:56px 0 20px}
+.inside{margin:54px 0 10px}
 .inside h2{font:400 clamp(30px,4vw,44px)/1 var(--display);text-transform:uppercase;color:var(--navy);margin:12px 0 22px}
 .spreads{display:grid;grid-template-columns:repeat(3,1fr);gap:26px}
 .spreads figure{margin:0}
