@@ -44,7 +44,7 @@ html{scroll-behavior:smooth}
 .nav a:focus-visible{outline:2px solid var(--brite);outline-offset:3px}
 .nav .navcta{margin-left:auto;background:var(--red);color:#fff;padding:9px 14px}
 .nav .navcta:hover{color:#fff;background:#a83122}
-@media (max-width:720px){ .nav a{font-size:12px} .navin{gap:12px} .nav .navcta{padding:8px 10px} }
+@media (max-width:720px){ .nav a{font-size:12px} .navin{flex-wrap:wrap;gap:8px 12px} .nav .navcta{margin-left:0;padding:8px 10px} }
 
 /* top strip */
 .top{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;padding:18px 0 10px;border-bottom:3px solid var(--navy)}
@@ -116,7 +116,6 @@ input[aria-invalid="true"]{border-color:var(--red);background:#fff1ec}
 .card.done .thanks{display:block}
 .thanks h2{margin-bottom:12px}
 .thanks p{margin:0 0 12px}
-.preview{font:500 14px/1.4 var(--label);background:var(--ink);color:var(--brite);padding:8px 10px;display:inline-block}
 
 /* spreads */
 .inside{margin:54px 0 10px}

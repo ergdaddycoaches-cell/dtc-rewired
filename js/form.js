@@ -23,7 +23,6 @@ const FORM_ENDPOINT = "https://xmr6-ssay-w0v9.n7e.xano.io/api:606h79Zh/copy-requ
     const data=Object.fromEntries(new FormData(form));delete data.website;
     data.locator_url=normUrl(data.locator_url);
     document.getElementById('tname').textContent=data.first_name.trim();
-    if(!FORM_ENDPOINT){document.getElementById('pv').hidden=false;done();return}
     go.disabled=true;go.textContent='Sending…';
     try{const r=await fetch(FORM_ENDPOINT,{method:'POST',headers:{'Content-Type':'application/json','Accept':'application/json'},body:JSON.stringify(data)});
       if(!r.ok)throw new Error();done()}
