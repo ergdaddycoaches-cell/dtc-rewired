@@ -58,7 +58,7 @@ h1{font:400 clamp(38px,6vw,72px)/.98 var(--display);text-transform:uppercase;mar
 h1 em{font-style:normal;color:var(--brite)}
 .lede{font-size:clamp(18px,2vw,21px);line-height:1.5;max-width:38em;margin:0 0 16px;color:#f3e9d2}
 .problem{font-size:clamp(17px,1.7vw,19px);line-height:1.5;max-width:40em;margin:0 0 14px;color:#efe4cb}
-.closer{font-size:clamp(18px,1.8vw,20px);line-height:1.45;max-width:38em;margin:4px 0 22px;color:#fff}
+.closer{font-size:clamp(18px,1.8vw,20px);font-weight:700;line-height:1.45;max-width:38em;margin:4px 0 22px;color:#efe4cb}
 .cta{display:inline-block;font:700 18px/1 var(--label);letter-spacing:.08em;text-transform:uppercase;text-decoration:none;background:var(--red);color:#fff;padding:16px 26px;border:0;cursor:pointer;
   clip-path:polygon(0 6%,6% 0,94% 5%,100% 0,100% 94%,95% 100%,5% 95%,0 100%);transition:transform .15s}
 .cta:hover{transform:translateY(-2px)}
