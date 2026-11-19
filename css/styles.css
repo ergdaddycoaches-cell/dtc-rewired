@@ -48,7 +48,9 @@ html{scroll-behavior:smooth}
 
 /* top strip */
 .top{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;padding:18px 0 10px;border-bottom:3px solid var(--navy)}
+.topid{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
 .top .tag{letter-spacing:.06em;line-height:1.35}
+.edition{display:inline-block;font:700 15px/1 var(--label);letter-spacing:.14em;text-transform:uppercase;background:var(--brite);color:var(--navy);padding:7px 11px;transform:rotate(2.5deg);box-shadow:3px 3px 0 var(--red)}
 .top b{font:700 14px/1 var(--label);letter-spacing:.08em;text-transform:uppercase;color:var(--red)}
 
 /* hero */
